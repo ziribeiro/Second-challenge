@@ -1,0 +1,58 @@
+    * {
+        font-family: 'Nunito', sans-serif;
+        font-size: 15px;
+    }
+    
+    #border {
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        padding: 10px;
+        text-align: justify;
+    }
+    
+    .buttons {
+        color: black;
+        cursor: pointer;
+    }
+    
+    .buttons:hover {
+        color: #FFC273;
+        background-color: #036499;
+        border-color: #995905;
+        transform: scale(1.2);
+        transition: all 0.5s;
+    }
+    
+    .line-break {
+        white-space: pre;
+    }
+    
+    label {
+        color: #FFC273;
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    input {
+        border: 3px solid #995905;
+    }
+    
+    form {
+        background-color: #175d83;
+        padding: 10px;
+        text-align: left;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: black;
+        font-weight: bold;
+        opacity: 3;
+        position: absolute;
+        top: -14px;
+        background-color: white;
+        margin-top: 15px;
+    }

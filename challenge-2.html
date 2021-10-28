@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles-2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200;1,400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body id="border">
+
+
+
+    <form action="" method="post" enctype="multipart/form-data">
+
+        <h2>Cadastro</h2>
+        <label class="line-break">Nome
+<input type="name" name="nome" required>
+        </label>
+
+
+        <label class="line-break">
+E-mail
+<input type="email" name="email" required>
+        </label>
+
+        <label class="line-break">
+Idade
+<input type="number" name="idade" min="12" required step="1">
+        </label>
+
+
+        <label class="line-break">
+Data de Nascimento
+<input type="date" name="data" required>
+        </label>
+
+        <p class="line-break"></p>
+
+        <label>
+            Onde você possui conta:
+            <p class="line-break"></p>
+            <label>
+                <input type="checkbox" name="instagram">
+                Instagram
+            </label>
+        <label>
+                <input type="checkbox" name="facebook">
+                Facebook
+            </label>
+        <label>
+                <input type="checkbox" name="youtube">
+                YouTube
+            </label>
+        </label>
+
+        <p class="line-break"></p>
+
+        <label>
+            Sexo
+            <p class="line-break"></p>
+            <label>
+                <input type="radio" name="sexo" value="Masculino">
+                Masculino
+            </label>
+        <label>
+                <input type="radio" name="sexo" value="feminino">
+                Feminino
+            </label>
+        </label>
+        <p class="line-break"></p>
+        <label>
+            Cor dos Olhos
+            <input type="color" name="cor-dos-olhos">
+        </label>
+        <p class="line-break"></p>
+        <label class="line-break">
+Biografia
+<textarea name="bio"></textarea>
+        </label>
+
+        <label class="line-break">
+Foto do perfil
+<input type="file" accept="image/*" name="foto">
+        </label>
+
+
+        <label id="telephone" class="line-break">
+Telefone
+<input type="tel" name="telefone">
+        </label>
+
+        <label class="line-break">
+Link do Perfil do Facebook
+<input type="url" name="facebook">
+        </label>
+
+        <label class="line-break">
+Senha
+<input type="password" name="senha" min="6" max="8" required>
+        </label>
+
+        <p class="line-break"></p>
+
+        <button class="buttons" type="reset" name="reset">Limpar</button>
+        <button class="buttons" type="submit" name="submit">Enviar Dados</button>
+
+    </form>
+
+</body>
+
+</html>
