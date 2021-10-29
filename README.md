@@ -7,7 +7,7 @@
 
 <img src="./project-image.JPG" alt="project-image">
 
-> Primeiro desafio do curso de programação do CodeClub utilizando HTML e CSS.
+> Segundo desafio do curso de programação do CodeClub utilizando HTML e CSS.
 
 ### Ajustes e melhorias
 
